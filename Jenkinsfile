@@ -1,4 +1,5 @@
 node {
+  sh("echo $PATH")
   sh("hostname")
   sh("whoami")
   sh("docker version")
