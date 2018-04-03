@@ -1,6 +1,6 @@
 node {
   sh("echo ${PATH}")
-  sh("hostname")
+  sh("/usr/bin/hostname")
   sh("whoami")
   sh("docker version")
   sh("kubectl version")
