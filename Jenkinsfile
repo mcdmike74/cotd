@@ -1,10 +1,10 @@
 node {
-  // sh('echo ${PATH}')
+  sh('echo ${PATH}')
   // sh('ls /usr/bin')
   // sh('/usr/bin/hostname')
   sh("uname -n")
   sh("whoami")
-  sh("docker version")
+  // sh("docker version")
   sh("kubectl version")
   sh("echo BRANCH_NAME=${env.BRANCH_NAME}")
   sh("echo BUILD_NUMBER=${env.BUILD_NUMBER}")
