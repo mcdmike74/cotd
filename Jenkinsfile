@@ -1,7 +1,8 @@
 node {
-  sh('echo ${PATH}')
-  sh('ls /usr/bin')
-  sh('/usr/bin/hostname')
+  // sh('echo ${PATH}')
+  // sh('ls /usr/bin')
+  // sh('/usr/bin/hostname')
+  sh("uname -n")
   sh("whoami")
   sh("docker version")
   sh("kubectl version")
