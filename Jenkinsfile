@@ -1,6 +1,6 @@
 node {
   sh('echo ${PATH}')
-  sh('ls')
+  sh('ls /usr/bin')
   sh('/usr/bin/hostname')
   sh("whoami")
   sh("docker version")
